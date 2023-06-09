@@ -10,7 +10,7 @@ steps:
       - -t=gcr.io/ucaldas-cloud-computing/${_IMG_NAME}:latest
       - .
 substitutions:
-  _IMG_NAME: imagen-proyecto-juanes
+  _IMG_NAME: juanes-proyecto-imagen
   _IMG_VERS: "0.1"
 images:
   # image tag is defined here since GCR appends `:latest` to your image tag by
